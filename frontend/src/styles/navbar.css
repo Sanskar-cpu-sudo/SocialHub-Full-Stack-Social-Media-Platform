@@ -1,0 +1,40 @@
+/* Navbar background with subtle gradient */
+.custom-navbar {
+  background: linear-gradient(90deg, #0d0d0d 0%, #1a1a2e 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Hover effect for links */
+.navbar-nav .nav-link {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #a259ff; /* purple accent */
+  text-shadow: 0 0 5px #a259ff;
+}
+
+/* Logout button style */
+.btn-outline-purple {
+  color: #a259ff;
+  border: 1px solid #a259ff;
+  transition: 0.3s;
+}
+
+.btn-outline-purple:hover {
+  background-color: #a259ff;
+  color: #fff;
+  box-shadow: 0 0 10px #a259ff;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  color: #fff;
+  text-shadow: 0 0 10px #a259ff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+  text-shadow: 0 0 15px #a259ff;
+}

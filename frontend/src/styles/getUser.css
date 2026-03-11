@@ -1,0 +1,271 @@
+/* ==============================
+   General Container
+============================== */
+.getuser-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* ==============================
+   Profile Card
+============================== */
+.getuser-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 30px 25px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.getuser-card:hover {
+  box-shadow: 0 0 25px rgba(162, 89, 255, 0.4);
+  transform: translateY(-5px);
+}
+
+.getuser-head {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #a259ff;
+}
+
+.getuser-card p {
+  color: #ccc;
+  margin: 6px 0;
+}
+
+.getuser-card img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border: 3px solid #a259ff;
+  margin-bottom: 15px;
+  box-shadow: 0 0 20px rgba(162, 89, 255, 0.3);
+}
+
+/* ==============================
+   Follow / Unfollow Buttons
+============================== */
+.btn-follow,
+.btn-unfollow {
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-follow {
+  background: linear-gradient(90deg, #a259ff, #6a00f4);
+  color: #fff;
+  border: none;
+}
+
+.btn-follow:hover {
+  box-shadow: 0 0 15px #a259ff;
+  transform: scale(1.05);
+}
+
+.btn-unfollow {
+  background-color: #444;
+  color: #fff;
+  border: none;
+}
+
+.btn-unfollow:hover {
+  box-shadow: 0 0 15px #ff4d6d;
+  transform: scale(1.05);
+}
+
+.back-btn .btn {
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+/* ==============================
+   User Posts Section
+============================== */
+.user-posts {
+  margin-top: 50px;
+}
+
+.user-posts-head {
+  color: #fff;
+  text-shadow: 0 0 8px #a259ff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* ==============================
+   Instagram-style Post Cards
+============================== */
+.insta-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.insta-card:hover {
+  transform: translateY(-8px);
+  border-color: #a259ff;
+  box-shadow: 0 0 15px rgba(162, 89, 255, 0.4);
+}
+
+/* Header section */
+.insta-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 8px;
+}
+
+.insta-header strong {
+  color: #fff;
+  font-size: 16px;
+}
+
+.time-text {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Post Title */
+.insta-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #fff;
+  text-shadow: 0px 0px 8px #a259ff;
+}
+
+/* Post Content */
+.insta-content {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Read More button */
+.read-more-btn {
+  font-size: 14px;
+  color: #a259ff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: 0.3s;
+}
+
+.read-more-btn:hover {
+  color: #fff;
+  text-shadow: 0px 0px 6px #a259ff;
+}
+
+/* ==============================
+   Post Image
+============================== */
+.post-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.post-image {
+  width: 90%;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(162, 89, 255, 0.4);
+}
+
+/* ==============================
+   Actions: Like, Comment, Share
+============================== */
+.insta-actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like-btn,
+.liked-btn,
+.comment-btn,
+.share-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.like-btn {
+  color: white;
+}
+
+.liked-btn {
+  color: #e74c3c;
+}
+
+.comment-btn {
+  color: #3498db;
+}
+
+.share-btn {
+  color: #a259ff;
+}
+
+.share-btn:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.red-heart {
+  color: red;
+}
+
+/* ==============================
+   Responsive Design
+============================== */
+@media (max-width: 768px) {
+  .getuser-card {
+    padding: 20px;
+  }
+
+  .getuser-head {
+    font-size: 24px;
+  }
+
+  .insta-card {
+    padding: 15px;
+  }
+
+  .post-image {
+    width: 100%;
+    max-height: 220px;
+  }
+}
